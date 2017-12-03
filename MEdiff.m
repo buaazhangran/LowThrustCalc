@@ -37,12 +37,21 @@ dk_max = -sqrt(p/miu)*s2*sqrt(1-f^2)/2/(1-g*sqrt(1-f^2)-f^2);
 % partial differential functions
 Kp = 2*wp*(p-pT)/dp_max^2;
 Kf = 2*wf*(f-fT)/df_max^2;
-Kg = 2*wg*(g-gT)/dg_max^2;
+Kg = 2*wg*(g-gT)/dg_max^2;kjjhuyuoijkik
 Kh = 2*wh*(h-hT)/dh_max^2;
 Kk = 2*wk*(k-kT)/dk_max^2;
 % calc the flight angles
 tanalpha = w*(Kf*sin(L)-Kg*cos(L))/(2*p*Kp+Kf*((1+w)*cos(L)+f)+Kg*((1+w)*sin(L)+g));
 alpha = atan(tanalpha);
+Sbeta = (Kg*f-Kf*g)*(h*sin(L)-k*cos(L))+s2/2*(Kh*cos(L)+Kk*sin(L));
+Cbeta = 2*Kp*p*cos(alpha)+w*sin(alpha)*(Kf*sin(L)-Kg*cos(L))...
+    +Kf*cos(alpha)*((1+w)*cos(L)+f)+Kg*cos(alpha)*((1+w)*sin(L)+g);
+beta = 
+alpha_flag = (-2*Kp*p*cos(alpha)*cos(beta)-w*Kf*sin(L)*sin(alpha)*cos(beta))...
+    -((1+w)*cos(L)+f)*Kf*cos(alpha)*cos(beta)+w*Kg*cos(L)*sin(alpha)*cos(beta)...
+    -((1+w)*sin(L)+g)*Kg*cos(alpha)*cos(beta);
+
+
 
 
 

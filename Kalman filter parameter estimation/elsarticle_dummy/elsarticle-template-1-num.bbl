@@ -1,0 +1,65 @@
+\begin{thebibliography}{7}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Rayman et~al.(1999)Rayman, Chadbourne, Culwell, and
+  Williams}]{rayman1999mission}
+\bibinfo{author}{M.~D. Rayman}, \bibinfo{author}{P.~A. Chadbourne},
+  \bibinfo{author}{J.~S. Culwell}, \bibinfo{author}{S.~N. Williams},
+\newblock \bibinfo{title}{Mission design for deep space 1: a low-thrust
+  technology validation mission},
+\newblock \bibinfo{journal}{Acta astronautica} \bibinfo{volume}{45}
+  (\bibinfo{year}{1999}) \bibinfo{pages}{381--388}.
+%Type = Article
+\bibitem[{Kugelberg et~al.(2004)Kugelberg, Bodin, Persson, and
+  Rathsman}]{kugelberg2004accommodating}
+\bibinfo{author}{J.~Kugelberg}, \bibinfo{author}{P.~Bodin},
+  \bibinfo{author}{S.~Persson}, \bibinfo{author}{P.~Rathsman},
+\newblock \bibinfo{title}{Accommodating electric propulsion on smart-1},
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{55}
+  (\bibinfo{year}{2004}) \bibinfo{pages}{121--130}.
+%Type = Article
+\bibitem[{Tsuda et~al.(2011)Tsuda, Mori, Funase, Sawada, Yamamoto, Saiki, Endo,
+  and Kawaguchi}]{tsuda2011flight}
+\bibinfo{author}{Y.~Tsuda}, \bibinfo{author}{O.~Mori},
+  \bibinfo{author}{R.~Funase}, \bibinfo{author}{H.~Sawada},
+  \bibinfo{author}{T.~Yamamoto}, \bibinfo{author}{T.~Saiki},
+  \bibinfo{author}{T.~Endo}, \bibinfo{author}{J.~Kawaguchi},
+\newblock \bibinfo{title}{Flight status of ikaros deep space solar sail
+  demonstrator},
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{69}
+  (\bibinfo{year}{2011}) \bibinfo{pages}{833--840}.
+%Type = Article
+\bibitem[{Oleson et~al.(1997)Oleson, Myers, Kluever, Riehl, and
+  Curran}]{oleson1997advanced}
+\bibinfo{author}{S.~R. Oleson}, \bibinfo{author}{R.~M. Myers},
+  \bibinfo{author}{C.~A. Kluever}, \bibinfo{author}{J.~P. Riehl},
+  \bibinfo{author}{F.~M. Curran},
+\newblock \bibinfo{title}{Advanced propulsion for geostationary orbit insertion
+  and north-south station keeping},
+\newblock \bibinfo{journal}{Journal of Spacecraft and Rockets}
+  \bibinfo{volume}{34} (\bibinfo{year}{1997}) \bibinfo{pages}{22--28}.
+%Type = Article
+\bibitem[{Killinger et~al.(2003)Killinger, Kukies, Surauer, Tomasetto, and van
+  Holtz}]{killinger2003artemis}
+\bibinfo{author}{R.~Killinger}, \bibinfo{author}{R.~Kukies},
+  \bibinfo{author}{M.~Surauer}, \bibinfo{author}{A.~Tomasetto},
+  \bibinfo{author}{L.~van Holtz},
+\newblock \bibinfo{title}{Artemis orbit raising inflight experience with ion
+  propulsion},
+\newblock \bibinfo{journal}{Acta Astronautica} \bibinfo{volume}{53}
+  (\bibinfo{year}{2003}) \bibinfo{pages}{607--621}.
+%Type = Book
+\bibitem[{Smith and Jones(2012)}]{Smith:2012qr}
+\bibinfo{author}{J.~M. Smith}, \bibinfo{author}{A.~B. Jones},
+  \bibinfo{title}{{B}ook {T}itle}, \bibinfo{publisher}{Publisher},
+  \bibinfo{edition}{7th} edition, \bibinfo{year}{2012}.
+%Type = Article
+\bibitem[{Jones and Smith(2013)}]{Smith:2013jd}
+\bibinfo{author}{A.~B. Jones}, \bibinfo{author}{J.~M. Smith},
+\newblock \bibinfo{title}{{A}rticle {T}itle},
+\newblock \bibinfo{journal}{{J}ournal {T}itle} \bibinfo{volume}{13}
+  (\bibinfo{year}{2013}) \bibinfo{pages}{123--456}.
+
+\end{thebibliography}
