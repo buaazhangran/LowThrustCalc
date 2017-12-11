@@ -335,15 +335,14 @@ where $\bm{x}\left( {{t_f};\bm{x}\left( {{t_0}} \right),{\bm{\lambda} _0}} \righ
 \section{The Nonlinear Kalman Filter Parameter Estimation Method}
 The shooting function solution for the optimal control problem is tricky to obtain, because of the numerical problems due to the nonsmoothness and discontinuities in the differential equations defining the optimal problem. For this reason, current numerical solvers typically present a narrow convergence radius for the shooting function. To overcome this problem, a nonlinear Kalman filter parameter estimation method is used to solve the TPBVP shooting functions.
 \subsection{Parameter Estimation}
- Parameter estimation, sometimes referred to as system identification or machine learning, involves determining a nonlinear transformation 
+ Parameter estimation, sometimes referred to as system identification, involves determining a nonlinear transformation 
  \begin{equation}
 \label{eq:ParameterEstimation}
 {
-{\bm {y}_k} = \bm{G}({\bm{z}_k},\bm{w})
+{\bm {y}_k} = G({\bm{z}_k},\bm{w})
 }
 \end{equation}
- where ${\bm{z}_k}$ is the input, ${\bm{y}_k}$ is the output, and the nonlinear map  $\bm{G}(\cdot )$ is parameterized by the vector $\bm{w}$. Typically, a training set is provided with sample pairs consisting of known input and desired outputs, $\left\{ {{\bm{x}_k},{\bm{d}_k}} \right\}$. The error of the machine is defined as ${\bm{e}_k} = {\bm{d}_k} - \bm{G}({\bm{z}_k},\bm{w})$, and the goal of learning involves solving for the parameters $\bm{w}$ in order to minimize the expectation of some given function of the error. While a number of optimization approaches exist (gradient descent, backpropagation, and Quasi-Newton methods), parameters can be efficiently estimated on-line by writing a state-space representation.
-  
+ where ${\bm{z}_k}$ is the input, ${\bm{y}_k}$ is the output, and $\bm{w}$ are the parameters.
 %\begin{itemize}
 %\item Bullet point one
 %\item Bullet point two
